@@ -4,6 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CustomList {
+
+    public boolean hasCity(City city) {
+        return cities.contains(city);
+    }
     private List<City> cities;
 
     public CustomList() {
