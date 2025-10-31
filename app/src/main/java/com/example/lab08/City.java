@@ -8,16 +8,18 @@ public class City {
         this.city = city;
         this.province = province;
     }
-// add a comment
+
+    // Returns the city name
     public String getCityName(){
         return this.city;
     }
 
+    // Returns the province name
     public String getProvinceName(){
         return this.province;
     }
 
-    // To make "contains" work properly in tests
+    //compares between two city
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
